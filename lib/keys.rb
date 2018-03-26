@@ -11,6 +11,6 @@ require 'pry'
 def get_the_keys(groceries)
   groceries.keys
   groceries.values.flatten
-  groceries.min
+  groceries.values.min
   #code your solution here!
 end
